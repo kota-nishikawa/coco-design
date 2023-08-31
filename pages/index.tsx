@@ -14,8 +14,7 @@ function App() {
   ];
 
   return (
-    <Grid  component="div"  spacing={3} justifyContent="center" alignItems="center">
-
+    <Grid container component="div" spacing={3} justifyContent="center" alignItems="center">
       {images.map((image, index) => (
         <Grid item xs={12} sm={6} md={6} key={index}>
           <img src={image} alt={`portfolio ${index + 1}`} className="responsive-image" />
