@@ -1,5 +1,5 @@
 import React from 'react';
-import Grid from '@material-ui/core/Grid';
+import Grid from '@mui/material/Grid';
 import './App.css';
 
 function App() {
@@ -14,7 +14,7 @@ function App() {
   ];
 
   return (
-    <Grid container spacing={3} justify="center" alignItems="center">
+    <Grid  component="div"  spacing={3} justifyContent="center" alignItems="center">
 
       {images.map((image, index) => (
         <Grid item xs={12} sm={6} md={6} key={index}>
