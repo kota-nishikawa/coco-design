@@ -5,7 +5,7 @@ import './App.css';
 function App() {
   // 仮の画像データ
   const images = [
-    '/images/yoko.jpg',
+    '/images/1260.jpg',
     '/images/1poto.jpg',
     '/images/2poto.jpg',
     '/images/3poto.jpg',
